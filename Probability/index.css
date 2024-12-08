@@ -1,0 +1,121 @@
+#body {
+  background-color: #e8bcb9;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.form {
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 1px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+}
+
+td.hiddenfalse,
+td.hiddentrue {
+  background-color: #4b4376;
+  font-size: 0.9em;
+}
+
+td.hiddentrue {
+  background: url(flagMode.png) center no-repeat;
+}
+
+td.mine {
+  background: url(mine.png) center no-repeat;
+}
+
+td.flag {
+  background: url(flag.png) center no-repeat;
+  background-color: #ae445a;
+}
+
+td[class="1"],
+td[class="2"],
+td[class="3"],
+td[class="4"],
+td[class="5"],
+td[class="6"],
+td[class="7"],
+td[class="8"] {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+td[class="1"] {
+  color: blue;
+}
+td[class="2"] {
+  color: green;
+}
+td[class="3"] {
+  color: red;
+}
+td[class="4"] {
+  color: purple;
+}
+td[class="5"] {
+  color: maroon;
+}
+td[class="6"] {
+  color: turquoise;
+}
+td[class="7"] {
+  color: black;
+}
+td[class="8"] {
+  color: gray;
+}
+
+span#minesRemaining {
+  margin-right: 1.75em;
+}
+
+input#flagMode {
+  margin-left: 1.75em;
+}
+
+div#timerBlock {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ae445a;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.btn {
+  border: none;
+  background-color: #e8bcb9;
+  color: #4b4376;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ae445a;
+  color: #e8bcb9;
+}
+
+.header {
+  background-color: #4b4376;
+  color: #e8bcb9;
+  padding: 1rem;
+}
+
+input {
+  border-radius: 3px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
